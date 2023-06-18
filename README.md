@@ -112,16 +112,12 @@ BASEでネットショップを運営しているショップオーナーの課�
 
 ・互換性要件: ツールは各種ブラウザやOSと互換性を持つように設計する。余裕があればレスポンシブ対応もする。
 
-<details>
-# <summary>◆設計</summary>
-  ![rapture_20230618233527](https://github.com/tomo178/original_product/assets/93224469/6cf6d9bc-f227-4a6a-8512-b4d2f2555c47)
-  ![rapture_20230618233516](https://github.com/tomo178/original_product/assets/93224469/43c05fa9-8827-419d-a27e-e705c2de2b54)
-</details>
 
 # ◆設計
 
 ![rapture_20230618233527](https://github.com/tomo178/original_product/assets/93224469/6cf6d9bc-f227-4a6a-8512-b4d2f2555c47)
 ![rapture_20230618233516](https://github.com/tomo178/original_product/assets/93224469/43c05fa9-8827-419d-a27e-e705c2de2b54)
+
 
 ## ワイヤーフレーム
 ![rapture_20230618233352](https://github.com/tomo178/original_product/assets/93224469/a9d42d01-08e0-40c6-9423-829d06d32d9d)
