@@ -137,4 +137,4 @@ BASEでネットショップを運営しているショップオーナーの課�
 
 
 ## ER図
-![IMG_20230705_130650](https://github.com/tomo178/original_product/assets/93224469/7300de2a-78a5-459f-8462-2f0883aeaf32)
+![IMG_20230705_130650](https://github.com/tomo178/original_product/assets/93224469/d517a087-c09c-4802-8c54-87a03703c6af)
