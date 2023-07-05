@@ -153,6 +153,7 @@ BASEでネットショップを運営しているショップオーナーの課�
 
 
 ## ER図
+右図IPではなくID
 ![IMG_20230705_130650](https://github.com/tomo178/original_product/assets/93224469/d517a087-c09c-4802-8c54-87a03703c6af)
 
 
