@@ -123,8 +123,8 @@ BASEでネットショップを運営しているショップオーナーの課�
 ![rapture_20230618233352](https://github.com/tomo178/original_product/assets/93224469/a9d42d01-08e0-40c6-9423-829d06d32d9d)
 ![rapture_20230618233440](https://github.com/tomo178/original_product/assets/93224469/d513b301-9c49-40ec-a7ed-38fe04d84e91)
 ![rapture_20230618233451](https://github.com/tomo178/original_product/assets/93224469/e9e65a41-b06d-4eb4-be91-c1bab06143e4)
+ホーム画面の中にチャットGPTプロンプト入力窓を作る
 ![rapture_20230618233405](https://github.com/tomo178/original_product/assets/93224469/c0a8011d-16ba-4ff3-853c-0e508dc92e9c)
-上の画面の中にチャットGPTプロンプト入力窓を作る
 ![rapture_20230618233417](https://github.com/tomo178/original_product/assets/93224469/105cbfc1-1faf-48ab-81ab-22b952f3b9a1)
 ![rapture_20230618233430](https://github.com/tomo178/original_product/assets/93224469/41f18f8d-b5e0-4170-858b-0410381a9644)
 
