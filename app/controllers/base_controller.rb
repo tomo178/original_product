@@ -6,8 +6,8 @@ class BaseController < ApplicationController
   require 'json'
 
   # BASE APIにアクセスするために必要な情報を定数として定義
-  CLIENT_ID = '【クライアントID】'
-  CLIENT_SECRET = '【クライアントシークレット】'
+  CLIENT_ID = '821181ccce85f72a32442629de0287e5'
+  CLIENT_SECRET = '4499016ebec1c03159f0fe1c1f0cce39'
   REDIRECT_URL = '【リダイレクトURL】'
 
   # BASE APIから認可コードを取得し、それを使用してアクセストークンを取得するためのメソッド
