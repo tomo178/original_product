@@ -1,0 +1,22 @@
+.content {
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.delete {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+
+.image-add {
+  width: 100px;
+  /* 画像の幅と同じに設定 */
+  height: 100px;
+  /* 画像の高さと同じに設定 */
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
