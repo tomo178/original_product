@@ -13,7 +13,7 @@ Rails.application.config.assets.version = "1.0"
 
 # scss個別読み込み設定
 Rails.application.config.assets.precompile += %w(
-  home.scss
-  posts.scss
-  products.scss
+  home.css
+  posts.css
+  products.css
 )
