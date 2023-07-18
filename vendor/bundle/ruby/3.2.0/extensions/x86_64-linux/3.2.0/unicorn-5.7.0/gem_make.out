@@ -1,0 +1,38 @@
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/unicorn-5.7.0/ext/unicorn_http
+/home/ec2-user/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+Unicorn was only tested against MRI up to 3.0.
+It might not properly work with 3.2.2
+checking for SIZEOF_OFF_T in ruby.h... yes
+checking for SIZEOF_SIZE_T in ruby.h... yes
+checking for SIZEOF_LONG in ruby.h... yes
+checking for rb_str_set_len() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+checking for gmtime_r() in time.h... yes
+checking if String#-@ (str_uminus) dedupes... yes
+checking if Hash#[]= (rb_hash_aset) dedupes... yes
+creating Makefile
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/unicorn-5.7.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20230718-128846-vvyh4y sitelibdir\=./.gem.20230718-128846-vvyh4y clean
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/unicorn-5.7.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20230718-128846-vvyh4y sitelibdir\=./.gem.20230718-128846-vvyh4y
+compiling httpdate.c
+compiling unicorn_http.c
+unicorn_http.c:340:18: warning: ‘http_parser_en_main’ defined but not used [-Wunused-const-variable=]
+  340 | static const int http_parser_en_main = 1;
+      |                  ^~~~~~~~~~~~~~~~~~~
+unicorn_http.c:338:18: warning: ‘http_parser_en_ChunkedBody_chunk_chunk_end’ defined but not used [-Wunused-const-variable=]
+  338 | static const int http_parser_en_ChunkedBody_chunk_chunk_end = 105;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object unicorn_http.so
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/unicorn-5.7.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20230718-128846-vvyh4y sitelibdir\=./.gem.20230718-128846-vvyh4y install
+/usr/bin/install -c -m 0755 unicorn_http.so ./.gem.20230718-128846-vvyh4y
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/unicorn-5.7.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20230718-128846-vvyh4y sitelibdir\=./.gem.20230718-128846-vvyh4y clean

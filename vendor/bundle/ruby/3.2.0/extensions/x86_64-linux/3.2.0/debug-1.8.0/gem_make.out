@@ -1,0 +1,19 @@
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/ec2-user/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-84406-65o96p sitelibdir\=./.gem.20230717-84406-65o96p clean
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-84406-65o96p sitelibdir\=./.gem.20230717-84406-65o96p
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-84406-65o96p sitelibdir\=./.gem.20230717-84406-65o96p install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230717-84406-65o96p/debug
+
+current directory: /home/ec2-user/original_product/original_product/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230717-84406-65o96p sitelibdir\=./.gem.20230717-84406-65o96p clean
