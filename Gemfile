@@ -73,3 +73,5 @@ gem 'sassc'
 group :production do
   gem 'unicorn', '6.1.0'
 end
+
+gem 'bcrypt', '~> 3.1.7'
