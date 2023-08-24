@@ -17,6 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_11_223546) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "password_digest"
+    t.index ["loginID"], name: "index_users_on_loginID", unique: true
   end
 
 end
