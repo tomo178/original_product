@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
   get 'users/new'
   get 'posts/edit'
   get 'products', to: 'products#index'
@@ -6,6 +7,9 @@ Rails.application.routes.draw do
   get 'base/authorize', to: 'base#authorize'
   get 'base/get_items', to: 'base#get_items'
   get  "/signup",  to: "users#new"
+  get    "/login",   to: "sessions#new"
+  post   "/login",   to: "sessions#create"
+  delete "/logout",  to: "sessions#destroy"
   root 'home#index'
   resources :users
 

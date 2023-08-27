@@ -1,10 +1,17 @@
-<%= stylesheet_link_tag 'header' %>
-
-<header class="header">
-  <ul>
-  <li>ホーム</li>
-  <li>商品一覧</li>
-  <li>ログアウト</li>
-  <li><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %></li>
-  </ul>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "アプリ名", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "ホーム", root_path %></li>
+        <li><%= link_to "商品一覧", '#' %></li>
+        <% if logged_in? %> 
+          <li><%= link_to "ログアウト", logout_path, data: { "turbo-method": :delete } %></li>
+        <% else %>
+          <li><%= link_to "ログイン", login_path %></li>
+          <li><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
 </header>

@@ -6,7 +6,7 @@
     <%= form_with(model: @user) do |f| %>
       <%= render 'shared/error_messages' %>
 
-      <%= f.label :loginID %>
+      <%= f.label :loginID, "ID" %>
       <%= f.text_field :loginID, class: 'form-control' %>
 
       <%= f.label :password %>
