@@ -10,8 +10,18 @@
 <body>
 
   <div class="container">
-    <button class="button1">新規商品取り込み<br>API</button>
+
+    <%= link_to "BASEで認可", base_request_authorize_path, class: "btn btn-primary" %>
+
+    <%= link_to "アクセストークンの取得", base_authorize_path, class: "btn btn-primary" %>
+
+    <form action="/fetch_base_products" method="post">
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+      <input type="submit" value="新規商品取り込みAPI">
+    </form>
+
     <button class="button2">チャットGPT<br>説明文一括編集</button>
+
   </div>
 
   <footer>

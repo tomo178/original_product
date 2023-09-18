@@ -2,14 +2,16 @@ Rails.application.routes.draw do
   get 'sessions/new'
   get 'users/new'
   get 'posts/edit'
-  get 'products', to: 'products#index'
-  get 'home', to: 'home#index'
-  get 'base/authorize', to: 'base#authorize'
-  get 'base/get_items', to: 'base#get_items'
-  get  "/signup",  to: "users#new"
-  get    "/login",   to: "sessions#new"
-  post   "/login",   to: "sessions#create"
-  delete "/logout",  to: "sessions#destroy"
+  get 'products' => 'products#index'
+  get 'home' => 'home#index'
+  get 'base/request_authorize' => 'base#request_authorize'
+  get 'base/authorize' => 'base#authorize'
+  get 'base/get_items' => 'base#get_items'
+  get  "/signup" => "users#new"
+  get    "/login" => "sessions#new"
+  post   "/login" => "sessions#create"
+  post 'fetch_base_products' => 'base#get_items'
+  delete "/logout" => "sessions#destroy"
   root 'home#index'
   resources :users
 
